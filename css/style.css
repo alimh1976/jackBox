@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900');
+
+body,html{
+	height:100%;
+}
+body{
+	margin: 0;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
+	background: hsla(0,0%,87%,1.00) url("../beautiful-game-design-background-art-games-vector.jpg") no-repeat center center/cover fixed;
+	
+	
+}
+
+.jackholder{
+	width:300px;
+	height:100px;
+	background: hsla(0,0%,75%,1.00);
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	border-radius:10px;
+	box-shadow: 1px 1px 15px 15px hsla(0,0%,100%,1.00);
+	overflow: hidden;
+	color:hsla(0,0%,94%,1.00);
+}
+.box{
+	width:100px;
+	height:1000px;
+	position: absolute;
+	top:0;
+	border-right: 1px solid black;
+	font-size: 20px;
+	transition: all 2s;
+	
+}
+.box1{
+	left:0px;
+	background: #ffb300 ;
+}
+.box2{
+	left:100px;
+	background: #aeea00;
+}
+.box3{
+	left:200px;
+	background: #00b0ff;
+}
+.go{
+	
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%,-25%);
+	
+}
+.boxnumber{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+}
+
+.boxnumber1-1,.boxnumber2-1,.boxnumber3-1{
+	top:0px;
+}
+.boxnumber1-2,.boxnumber2-2,.boxnumber3-2{
+	top:100px;
+}
+.boxnumber1-3,.boxnumber2-3,.boxnumber3-3{
+	top:200px;
+}
+
+.boxnumber1-4,.boxnumber2-4,.boxnumber3-4{
+	top:300px;
+}
+
+.boxnumber1-5,.boxnumber2-5,.boxnumber3-5{
+	top:400px;
+}
+
+.boxnumber1-6,.boxnumber2-6,.boxnumber3-6{
+	top:500px;
+}
+
+.boxnumber1-7,.boxnumber2-7,.boxnumber3-7{
+	top:600px;
+}
+
+.boxnumber1-8,.boxnumber2-8,.boxnumber3-8{
+	top:700px;
+}
+
+.boxnumber1-9,.boxnumber2-9,.boxnumber3-9{
+	top:800px;
+}
+
+.boxnumber1-10,.boxnumber2-10,.boxnumber3-10{
+	top:900px;
+}
+
+
+.number{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.gameover{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	opacity: 0;
+	transition: all 400ms;
+	
+}
