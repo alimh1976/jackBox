@@ -28,7 +28,7 @@ body{
 }
 .box{
 	width:100px;
-	height:1000px;
+	height:10000px;
 	position: absolute;
 	top:0;
 	border-right: 1px solid black;
