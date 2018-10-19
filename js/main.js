@@ -59,7 +59,7 @@ function _jackbox(){
 	
     if(_x == _y && _x==_z && _y == _z){
 		
-		alert("you won");
+		alert("you wonnnnnnn !!!!");
 		i=0;
 
 	}
